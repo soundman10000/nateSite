@@ -9,7 +9,6 @@ bootstrap(function(aurelia) {
 
   aurelia.use
     .standardConfiguration()
-    .feature('pages')
     .developmentLogging()
 
   aurelia.start().then(a => a.setRoot('app', document.body))

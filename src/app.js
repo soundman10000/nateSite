@@ -5,7 +5,7 @@ const routes =
     , nav: false, title:'Index'
     }
   , { route: ['']
-    , redirect: 'main'
+    , redirect: 'index'
     }
   ]
 
