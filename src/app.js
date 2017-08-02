@@ -4,6 +4,11 @@ const routes =
     , moduleId: 'pages/index/component'
     , nav: false, title:'Index'
     }
+  , { route: ['aboutus']
+    , name: 'aboutus'
+    , moduleId: 'pages/about-us/component'
+    , nav: false, title:'About Us'
+    }
   , { route: ['']
     , redirect: 'index'
     }
