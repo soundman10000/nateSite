@@ -6,5 +6,6 @@ import style from './style.pcss'
 export class AboutUs{
   constructor(){
     this.style = style
+    this.aboutUs = 'Jason'
   }
 }
